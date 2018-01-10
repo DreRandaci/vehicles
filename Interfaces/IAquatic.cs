@@ -1,4 +1,7 @@
-public interface IAquatic
+namespace vehicles
 {
-    double MaxWaterSpeed { get; set; }
+    public interface IAquatic
+    {
+        double MaxWaterSpeed { get; set; }
+    }
 }

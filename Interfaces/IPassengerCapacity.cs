@@ -1,4 +1,7 @@
-public interface IPassengerCapacity
+namespace vehicles
 {
-    int PassengerCapacity { get; set; }  
+    public interface IPassengerCapacity
+    {
+        int PassengerCapacity { get; set; }
+    }
 }

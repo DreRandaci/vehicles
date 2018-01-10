@@ -2,26 +2,30 @@
 using System.Linq;
 using System.Collections.Generic;
 
-public class Program
+namespace vehicles
 {
+    public class Program
+    {
 
-    public static void Main() {
+        public static void Main()
+        {
 
-        // Build a collection of all vehicles that fly
+            // Build a collection of all vehicles that fly
 
-        // With a single `foreach`, have each vehicle Fly()
-
-
-
-        // Build a collection of all vehicles that operate on roads
-
-        // With a single `foreach`, have each road vehicle Drive()
+            // With a single `foreach`, have each vehicle Fly()
 
 
 
-        // Build a collection of all vehicles that operate on water
-        
-        // With a single `foreach`, have each water vehicle Drive()
+            // Build a collection of all vehicles that operate on roads
+
+            // With a single `foreach`, have each road vehicle Drive()
+
+
+
+            // Build a collection of all vehicles that operate on water
+
+            // With a single `foreach`, have each water vehicle Drive()
+        }
+
     }
-
 }

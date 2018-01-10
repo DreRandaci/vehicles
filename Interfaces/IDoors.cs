@@ -1,4 +1,7 @@
-public interface IDoors
+namespace vehicles
 {
-    int Doors { get; set; }
+    public interface IDoors
+    {
+        int Doors { get; set; }
+    }
 }

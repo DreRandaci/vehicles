@@ -1,6 +1,9 @@
-public interface IFlying
+namespace vehicles
 {
-    double MaxAirSpeed { get; set; }
-    bool Winged { get; set; }   
-    void Fly();
+    public interface IFlying
+    {
+        double MaxAirSpeed { get; set; }
+        bool Winged { get; set; }
+        void Fly();
+    }
 }

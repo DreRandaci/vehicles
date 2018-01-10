@@ -1,5 +1,8 @@
-public interface IEngine
+namespace vehicles
 {
-    double EngineVolume { get; set; }
-    string TransmissionType { get; set; }
+    public interface IEngine
+    {
+        double EngineVolume { get; set; }
+        string TransmissionType { get; set; }
+    }
 }

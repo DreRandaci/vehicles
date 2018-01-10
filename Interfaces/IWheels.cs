@@ -1,5 +1,8 @@
-public interface IWheels
+namespace vehicles
 {
-    int Wheels { get; set; }    
-    double MaxLandSpeed { get; set; }
+    public interface IWheels
+    {
+        int Wheels { get; set; }
+        double MaxLandSpeed { get; set; }
+    }
 }
