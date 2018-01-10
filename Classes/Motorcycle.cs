@@ -2,15 +2,32 @@ using System;
 
 namespace vehicles
 {
-    public class Motorcycle : Vehicle, IWheels, IEngine, IPassengerCapacity
+    public class Motorcycle : Land, IWheels, IVehicle, IEngine, IPassengerCapacity
     {
-        public int Wheels { get; set; } = 2;
-        public int Doors { get; set; } = 0;
-        public int PassengerCapacity { get; set; }
+        public double EngineVolume { get; set; }
         public string TransmissionType { get; set; } = "Manual";
-        public double EngineVolume { get; set; } = 1.3;
-        public double MaxLandSpeed { get; set; } = 160.4;
+        public int PassengerCapacity { get; set; }
 
+        public void Drive()
+        {
+            Console.WriteLine("Do a wheelie!");
+        }
 
+        public void Start()
+        {
+            Console.WriteLine("Started up");
+        }
+
+        public void Stop()
+        {
+            Console.WriteLine("Stopped");
+        }
+
+        public Motorcycle(double engineVolume, string transMission, int passengerCapacity)
+        {
+            this.EngineVolume = engineVolume;
+            this.TransmissionType = transMission;
+            this.PassengerCapacity = passengerCapacity;
+        }
     }
 }
